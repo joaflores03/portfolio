@@ -5,13 +5,10 @@
     --rosaoscuro:#ECDFDB;
     --celeste:#C6E1F1;
     --azul:#B5C5D7;
-
-
-
 }
-body{background-color: var(--main);margin: 0%;padding: 0%; overflow-x: hidden;}
+body{background-color: var(--celeste);margin: 0%;padding: 0%; overflow-x: hidden;}
 ul{list-style: none;}
-a{text-decoration: none;color: var(--white);}
+a{text-decoration: none;color: black;}
 
 .navbar{
     background-color: rgba(0, 0, 0, 0.1);
@@ -43,7 +40,6 @@ a{text-decoration: none;color: var(--white);}
     border-radius: 50%;
 }
 .aboutme{
-    background-color: var(--main);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -62,21 +58,21 @@ a{text-decoration: none;color: var(--white);}
     text-align: center;
 }
 .title:hover{
-    color: var(--white);
+    color: white;
 }
 
 .dev{
     font-family: 'Pacifico', cursive;
     color: var(--brown);
     font-size: 1.8em;
-    transition: .4  s;
+    transition: .4s;
     width: 35%;
     margin-top: -30px;
     text-align: center;
 }
 
 .dev:hover{
-    color: var(--skyblue);
+    color: grey;
 }
 
 .subtitle{
@@ -93,7 +89,7 @@ a{text-decoration: none;color: var(--white);}
 }
 
 .item:hover{
-    text-decoration: underline solid var(--skyblue);
+    text-decoration: underline solid var(--violeta);
 }
 
 .item-wrapper{
@@ -163,7 +159,6 @@ a{text-decoration: none;color: var(--white);}
 .projectsTitle{
     font-family: 'Pacifico', cursive;
     font-size: 1.5rem;
-    color: var(--gainsboro);
 }
 
 .projectsItems{
@@ -206,7 +201,7 @@ a{text-decoration: none;color: var(--white);}
     align-items: center;
     width: 50%;
     height: 100%;
-    border: 2px solid var(--skyblue);
+    border: 2px solid var(--violeta);
     border-radius: 10px;
     margin-bottom: 10px;
 }
@@ -218,14 +213,20 @@ a{text-decoration: none;color: var(--white);}
 }
 
 .bttForm{
-    color: var(--white);
+    color: black;
     width: 50%;
     margin: 20px;
     padding: 10px;
-    background-color: #605856;
+    background-color: transparent;
     border-style: none;
     border-radius: 20px;
     cursor: pointer;
+    border: 1px solid var(--violeta);
+    transition: 1s;
+}
+
+.bttForm:hover{
+    background-color: lightskyblue;
 }
 
 .inputForm{
@@ -243,6 +244,14 @@ a{text-decoration: none;color: var(--white);}
     .navbar {
         display: none;
     }
+
+
+    .allAbout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .aboutme {
         margin-top: 0px;
         display: flex;
@@ -251,15 +260,27 @@ a{text-decoration: none;color: var(--white);}
         align-items: center;
 
     }
+
+    .left{
+        margin-top: 40px;
+    }
+
     .title{
         text-align: center;
         font-size: 2rem;
         color: var(--laurel-green);
+        width: 100%;
+    }
+
+    .dev{
+        width: 100%;
+        margin-top: 5px;
     }
 
     .subtitle{
         width: 80%;
         font-size: 14px;
+    
     }
 
     .skills{
@@ -293,6 +314,25 @@ a{text-decoration: none;color: var(--white);}
     }
 
 
+    .projectsItems{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        gap: 15px;
+        transition: all .4s;
+    }
+
+    .projectsItems img{
+        width: 30%;
+        border-radius: 10px;
+        height: auto;
+    }
+    
+
 
 }
-  
