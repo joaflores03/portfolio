@@ -27,17 +27,27 @@ a{text-decoration: none;color: var(--white);}
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .title{
     font-family: 'Lobster', cursive;
     font-weight: 200;
     font-size: 3em;
+    transition: .4s;
+}
+.title:hover{
+    color: var(--white);
 }
 
 .dev{
     font-family: 'Pacifico', cursive;
     color: var(--brown);
+    font-size: 1.8em;
+    transition: .4  s;
+}
+
+.dev:hover{
+    color: var(--skyblue);
 }
 
 .subtitle{
