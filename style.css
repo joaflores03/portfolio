@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
 :root{
-    --main:#D0CCD0;
-    --white:#FBFCFF;
-    --blue:#274156;
-    --skyblue:#1C6E8C;
-    --brown:#605856;
+    --violeta:#E4BCD4;
+    --rosado:#F4D9EC;
+    --rosaoscuro:#ECDFDB;
+    --celeste:#C6E1F1;
+    --azul:#B5C5D7;
+
+
+
 }
 body{background-color: var(--main);margin: 0%;padding: 0%; overflow-x: hidden;}
 ul{list-style: none;}
