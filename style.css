@@ -76,10 +76,17 @@ a{text-decoration: none;color: black;}
 }
 
 .subtitle{
-    width: 85%;
-    font-size: 18px;
+    width: 50%;
+    font-size: 24px;
     text-align: center;
 }
+
+.aboutName{color: grey;text-decoration: underline dotted white;}
+.aboutDev{color: white;text-transform: capitalize;text-decoration: underline dotted black}
+.soydalto{color: sienna;text-decoration: underline dotted var(--rosado)}
+.like{color: beige;text-decoration: underline dotted var(--violeta);}
+.clickaca{color: blue;text-transform: uppercase;}
+
 
 .item{
     font-size: 1.3rem;
