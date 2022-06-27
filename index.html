@@ -77,19 +77,18 @@
             <form>
                 <fieldset class="form">
                     <legend>Contact Information</legend>
-                    <label>Name<i>*</i></label>
-                    <input class="inputForm" type="text" placeholder="Your Name"  required>
-                    <label>Surname<i>*</i></label>
-                    <input class="inputForm" type="text" placeholder="Your Surname"  required>
-                    <label>Email<i>*</i></label>
-                    <input class="inputForm" type="email" placeholder="youremail@example.com"  required>
-                    <label>Message</label>
-                    <textarea  name="" id="" cols="20" rows="5"></textarea>
+                    <label for="name">Full Name<i style="color: rgb(167, 0, 0); margin-left: 5px;">*</i></label>
+                    <input id="fullname" name="name" class="inputForm" type="text" placeholder="Your Full Name"  required>
+                    <label for="email">Email<i style="color: rgb(167, 0, 0); margin-left: 5px;">*</i></label>
+                    <input name="email" class="inputForm" type="email" placeholder="youremail@example.com"  required>
+                    <label for="message">Message<i style="color: rgb(167, 0, 0); margin-left: 5px;">*</i></label>
+                    <textarea  name="message" required id="message" cols="90" rows="10"></textarea>
                     <button class="bttForm">Send</button>
                 </fieldset>
             </form>
+            <a href="mailto:joaflores899@gmail.com" id="mailto"></a>
         </div>
-
+      
         <footer class="footer-wrapper">
 
             <ul class="social-wrapper">

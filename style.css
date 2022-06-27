@@ -368,6 +368,11 @@ a{text-decoration: none;color: black;}
         background-color: var(--azul);
     }
 
+
+    .mailto{
+        display: none;
+    }
+
     .social-wrapper{
         display: flex;
         justify-content: center;
@@ -384,4 +389,25 @@ a{text-decoration: none;color: black;}
     body{
         overflow-x: hidden;
     }
+
+
+    #message{
+        border: none;
+        border-radius: 4px;
+        width: 85%;
+    }
+}
+
+
+input{
+    font-size: 18px;
+}
+
+#message{
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 81%;
+    margin-top: 10px;
 }
