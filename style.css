@@ -180,18 +180,42 @@ a{text-decoration: none;color: black;}
 }
 
 .projectsItems img{
-    width: 30%;
+    width: 90%;
     border-radius: 10px;
     cursor: pointer;
 }
-
-.comingsoon{
-    height: 171.9px;
-}
-
 .projectsItems img:hover{
     transform: scale(1.1);
     opacity: .8;
+}
+
+.project-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.project-card i{
+    margin-left: 10px;
+}
+.project-card i:hover{
+    color: red;
+}
+
+.project-card h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.project-card a{
+    text-decoration: none;
+    color: black;
+    font-size:1.3rem;
 }
 
 .contactTitle{
@@ -354,9 +378,31 @@ a{text-decoration: none;color: black;}
     }
 
     .projectsItems img{
-        width: 30%;
+        width: 70%;
         border-radius: 10px;
         height: auto;
+    }
+
+    .project-card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .project-card h4{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    .project-card a{
+        text-decoration: none;
+        color: black;
+        font-size:.8rem;
     }
 
     .footer-wrapper{
